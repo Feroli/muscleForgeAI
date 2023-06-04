@@ -5,11 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { ProgressComponent } from './progress/progress.component';
+import { ProfileComponent } from './profile/profile.component';
+import { WorkoutsComponent } from './workouts/workouts.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent
+    DashboardComponent,
+    ProgressComponent,
+    ProfileComponent,
+    WorkoutsComponent
   ],
   imports: [
     BrowserModule,
